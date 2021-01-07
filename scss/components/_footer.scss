@@ -1,0 +1,20 @@
+@import '../base/color';
+@import '../base/fonts';
+
+
+.footer {
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, $color-strong, $color-normal);
+} /*fondo*/
+
+.footer a {
+    @include textitosA
+}
+
+.footer {
+    @include textitos
+}
+
+
+

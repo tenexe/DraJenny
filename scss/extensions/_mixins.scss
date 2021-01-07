@@ -1,0 +1,44 @@
+@import '../base/color';
+@import '../base/fonts';
+
+
+
+@mixin texto {
+    font-family: $fuente;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+@mixin artículo {
+    
+}
+
+@mixin textitos {
+    font-family: $fuente;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+@mixin textitosA {
+    font-family: $fuente;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    &:hover {
+        color: $rosa;
+    }
+}
+
+@mixin botonOverride {
+    background-color: $blanco !important;
+    color: $negro !important;
+    box-shadow: none !important;
+    border: none !important;    
+}
+
+
+
+
+
+

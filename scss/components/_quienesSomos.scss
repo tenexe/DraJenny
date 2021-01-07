@@ -1,0 +1,41 @@
+@import '../extensions/mixins';
+@import '../base/color';
+@import '../base/fonts';
+
+.quienesSomos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.quienesSomos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $color-normal;
+    padding: 2% 0 3% 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.who {
+    font-weight: 300;    
+    font-size: 20px;
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    @include texto;
+}
+
+
+
+.quienesSomos img {
+    padding: 3vh 0 0 0;
+    transition: height 2s;
+    height: 150px;
+}
+
+.quienesSomos img:hover {
+    height: 200px;
+}

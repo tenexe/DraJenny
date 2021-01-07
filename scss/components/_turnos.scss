@@ -1,0 +1,16 @@
+@import '../extensions/mixins';
+@import '../base/color';
+@import '../base/fonts';
+
+.turnosMain {
+    background-color: $color-normal;
+}
+
+input, .form-select, .form-control {
+    box-shadow: none !important;
+}
+
+.form-check-input {
+    color: pink;
+    background-color: pink;
+}
