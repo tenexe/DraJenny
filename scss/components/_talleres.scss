@@ -1,0 +1,30 @@
+@import '../extensions/mixins';
+@import '../base/color';
+@import '../base/fonts';
+
+.talleres { /* SOLO FONDO */
+    padding: 5%;
+    background-color: white;
+    background-image: url(../media/Holly-Springs_Choosing-a-Pediatrician.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.talleres-title {
+    padding-top: 5vh;
+}
+
+
+.talleres-grid {
+    padding-top: 2vh;
+    background-color: $color-normal;
+    padding-bottom: 1%;
+    border-radius: 40px;  
+}
+
+.talleres-card {
+    border-radius: 10px;
+}

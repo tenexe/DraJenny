@@ -1,0 +1,43 @@
+$fuente: 'Krub', sans-serif;
+$negrita: bold !important;
+
+h1 {
+    font-family: $fuente;
+}
+
+h2 {
+    font-family: $fuente;
+    font-weight: $negrita;
+    padding-bottom: 2%;
+}
+
+h3 {
+    font-family: $fuente;
+}
+
+
+h4 {
+    font-family: $fuente;
+    font-weight: $negrita;
+}
+
+.accordion-button {
+    font-family: $fuente;
+    font-weight: $negrita;
+    color: $color-strong !important;
+}
+
+h5 {    
+    font-family: $fuente;
+    font-weight: $negrita;
+}
+
+h6 {
+    font-family: $fuente;
+    font-weight: $negrita;
+}
+
+
+.form-check-label, .form-label {
+    color: $blanco;
+}

@@ -1,0 +1,9 @@
+@import '../extensions/mixins';
+@import '../base/color';
+@import '../base/fonts';
+
+.nav-link {
+    font-family: $fuente;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
