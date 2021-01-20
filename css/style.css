@@ -432,6 +432,29 @@ input, .form-select, .form-control {
   background-color: pink;
 }
 
+.KontaktB {
+  color: white;
+  background-color: #ea1f47;
+  width: auto;
+  margin: 0 auto;
+  padding: 3%;
+  margin: 2px solid #ea1f47;
+  border-radius: 40px;
+}
+.KontaktB:hover {
+  transition: background-color 1s;
+  background-color: #ad102f;
+}
+.KontaktB .KontaktA {
+  border-radius: 40px;
+}
+
+.KontaktText {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
 h1 {
   font-family: "Krub", sans-serif;
 }

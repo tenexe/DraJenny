@@ -14,3 +14,29 @@ input, .form-select, .form-control {
     color: pink;
     background-color: pink;
 }
+
+.KontaktB {
+    color: $blanco;
+    background-color: $color-light;
+    width: auto;
+    margin: 0 auto;
+    padding: 3%;
+    margin: 2px solid $color-light;
+    border-radius: 40px;
+    &:hover {
+        transition: background-color 1s;    
+        background-color: $color-strong;
+}
+
+.KontaktA {
+    border-radius: 40px;
+    }
+}
+
+
+.KontaktText {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
