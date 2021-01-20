@@ -1,5 +1,5 @@
 $fuente: 'Krub', sans-serif;
-$negrita: bold !important;
+$negrita: bold;
 
 h1 {
     font-family: $fuente;
@@ -24,7 +24,7 @@ h4 {
 .accordion-button {
     font-family: $fuente;
     font-weight: $negrita;
-    color: $color-strong !important;
+    color: $color-strong;
 }
 
 h5 {    
