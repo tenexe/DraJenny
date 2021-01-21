@@ -32,6 +32,17 @@
     @include texto;
 }
 
+@media only screen and (max-width: 768px) {  
+    .FAQsTitle {
+        padding-top: 20px;            
+    }
+}
+
+
+
+
 .accordion-collapse {
     padding: 0 5%;
 }
+
+

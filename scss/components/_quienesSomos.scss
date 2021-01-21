@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.quienesSomos div {
+.quienesSomos .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,15 +19,26 @@
     border-bottom-right-radius: 40px;
 }
 
-.who {
-    font-weight: 300;    
-    font-size: 20px;
-    color: white;
-    width: 40%;
-    margin: 0 auto;
-    @include texto;
+@media only screen and (min-width: 768px) {  
+    .quienesSomos .container .who {
+        font-weight: 300;    
+        font-size: 20px;
+        color: white;
+        width: 50%;
+        margin: 0 auto;
+        @include texto;
+    }
 }
 
+@media only screen and (max-width: 767px) {
+    .quienesSomos .container .who {
+        font-weight: 300;    
+        font-size: 20px;
+        color: white;
+        @include texto;
+        width: 85%;
+    }
+}
 
 
 .quienesSomos img {

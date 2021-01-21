@@ -26,16 +26,21 @@ input, .form-select, .form-control {
     &:hover {
         transition: background-color 1s;    
         background-color: $color-strong;
+    }
 }
 
-.KontaktA {
-    border-radius: 40px;
-    }
+.turnoPack:hover {
+    background-color: $color-light;
+}
+
+.KontaktA:hover {
+    transition: background-color 1s;
+    background-color: $rosa;        
 }
 
 
 .KontaktText {
-    width: 60%;
+    width: auto;
     margin: 0 auto;
     padding: 2% 0;
 }

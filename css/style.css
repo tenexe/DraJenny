@@ -8,6 +8,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -35,6 +39,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 h1 {
@@ -47,6 +55,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -74,6 +86,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 h1 {
@@ -86,6 +102,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -113,6 +133,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 .nav-link {
@@ -121,6 +145,10 @@ h6 {
   font-weight: 600;
 }
 
+.navJenny {
+  background-image: linear-gradient(to bottom, #ea1f47, #ad102f);
+}
+
 h1 {
   font-family: "Krub", sans-serif;
 }
@@ -129,6 +157,10 @@ h2 {
   font-family: "Krub", sans-serif;
   font-weight: bold;
   padding-bottom: 2%;
+}
+
+.titleLight {
+  color: white;
 }
 
 h3 {
@@ -160,6 +192,10 @@ h6 {
   color: white;
 }
 
+.LegalesTxt {
+  color: black;
+}
+
 h1 {
   font-family: "Krub", sans-serif;
 }
@@ -168,6 +204,10 @@ h2 {
   font-family: "Krub", sans-serif;
   font-weight: bold;
   padding-bottom: 2%;
+}
+
+.titleLight {
+  color: white;
 }
 
 h3 {
@@ -197,6 +237,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 .quienesSomos {
@@ -205,7 +249,7 @@ h6 {
   text-align: center;
 }
 
-.quienesSomos div {
+.quienesSomos .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,17 +260,29 @@ h6 {
   border-bottom-right-radius: 40px;
 }
 
-.who {
-  font-weight: 300;
-  font-size: 20px;
-  color: white;
-  width: 40%;
-  margin: 0 auto;
-  font-family: "Krub", sans-serif;
-  font-style: italic;
-  line-height: 1.6;
+@media only screen and (min-width: 768px) {
+  .quienesSomos .container .who {
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Krub", sans-serif;
+    font-style: italic;
+    line-height: 1.6;
+  }
 }
-
+@media only screen and (max-width: 767px) {
+  .quienesSomos .container .who {
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    font-family: "Krub", sans-serif;
+    font-style: italic;
+    line-height: 1.6;
+    width: 85%;
+  }
+}
 .quienesSomos img {
   padding: 3vh 0 0 0;
   transition: height 2s;
@@ -247,6 +303,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -274,6 +334,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 h1 {
@@ -286,6 +350,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -313,6 +381,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 .talleres {
@@ -351,6 +423,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -378,6 +454,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 h1 {
@@ -390,6 +470,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -417,6 +501,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 .turnosMain {
@@ -445,12 +533,18 @@ input, .form-select, .form-control {
   transition: background-color 1s;
   background-color: #ad102f;
 }
-.KontaktB .KontaktA {
-  border-radius: 40px;
+
+.turnoPack:hover {
+  background-color: #ea1f47;
+}
+
+.KontaktA:hover {
+  transition: background-color 1s;
+  background-color: pink;
 }
 
 .KontaktText {
-  width: 60%;
+  width: auto;
   margin: 0 auto;
   padding: 2% 0;
 }
@@ -465,6 +559,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -492,6 +590,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 h1 {
@@ -504,6 +606,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -531,6 +637,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 .FAQs {
@@ -565,6 +675,11 @@ h6 {
   line-height: 1.6;
 }
 
+@media only screen and (max-width: 768px) {
+  .FAQsTitle {
+    padding-top: 20px;
+  }
+}
 .accordion-collapse {
   padding: 0 5%;
 }
@@ -579,6 +694,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -608,28 +727,43 @@ h6 {
   color: white;
 }
 
-.footer {
-  padding: 3% 1% 1% 1%;
+.LegalesTxt {
+  color: black;
+}
+
+.footer1 {
+  padding: 3% 0% 1% 0%;
   text-align: center;
   background-image: linear-gradient(to bottom, #ad102f, #dc143c);
 }
 
 /*fondo*/
-.footer a {
+.footer1 .legalesLink {
   font-family: "Krub", sans-serif;
   color: white;
   text-decoration: none;
   font-size: small;
 }
-.footer a:hover {
+.footer1 .legalesLink:hover {
   color: pink;
 }
 
-.footer {
+.footer1 {
   font-family: "Krub", sans-serif;
   color: white;
   text-decoration: none;
   font-size: small;
+}
+
+.linkDark {
+  font-family: "Krub", sans-serif;
+  color: #ad102f;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+.linkDark:hover {
+  color: pink;
 }
 
 h1 {
@@ -642,6 +776,10 @@ h2 {
   padding-bottom: 2%;
 }
 
+.titleLight {
+  color: white;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -669,6 +807,10 @@ h6 {
 
 .form-check-label, .form-label {
   color: white;
+}
+
+.LegalesTxt {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,19 +2,30 @@
 @import '../base/fonts';
 
 
-.footer {
-    padding: 3% 1% 1% 1%;
+.footer1 {
+    padding: 3% 0% 1% 0%;
     text-align: center;
     background-image: linear-gradient(to bottom, $color-strong, $color-normal);
 } /*fondo*/
 
-.footer a {
-    @include textitosA
+.footer1 .legalesLink {
+    @include textitosA;
 }
 
-.footer {
-    @include textitos
+
+.footer1 {
+    @include textitos;
 }
 
+.linkDark {
+    font-family: $fuente;
+    color: $color-strong;
+    text-decoration: none;
+    font-size: small;
+    font-weight: $negrita;
+    &:hover {
+        color: $rosa;
+    }
+}
 
 

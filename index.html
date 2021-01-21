@@ -28,7 +28,7 @@
 </head>
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg py-5 navbar-dark" style="background-color: #ad102f">
+    <nav class="navbar fixed-top navbar-expand-lg py-4 navbar-dark navJenny">
         <div class="container d-flex justify-content-between align-items-center">
             <div>
                 <a class="navbar-brand" href="#">
@@ -41,70 +41,69 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02" role="navigation">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
-                        <a class="nav-link" href="index.html#talleres">Talleres</a>
-                    </li>
-                    <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
-                        <a class="nav-link" href="index.html#turnos">Consultas</a>
-                    </li>
-                    <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
-                        <a class="nav-link" href="index.html#FAQs">Preguntas Frecuentes</a>
-                    </li>
-                    <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <!-- 
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                        <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
+                            <a class="nav-link" href="index.html#talleres">Talleres</a>
+                        </li>
+                        <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
+                            <a class="nav-link" href="index.html#turnos">Consultas</a>
+                        </li>
+                        <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
+                            <a class="nav-link" href="index.html#FAQs">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <!-- 
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
                     </ul>
-                    <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form> -->
                 </div>
           </div>
         </div>
     </nav>
 
 
-    <section class="videoSection">
-        <div class="pt-5"></div>
-        <div class="videoIntro container pt-5">
-            <a href="https://youtube.com">
-                <img src="media/video-opc.png" alt="videoIntro" class="img-fluid">
-            </a> <!--img c/ link a video YT sólo por ahora ya que finalmente sería video hosteado-->
-        </div>
-    </section>
+
 
     
-    <section id="quienesSomos" class="quienesSomos">    
-        <div class="container">            
-            <h2>¿Quiénes somos?</h2> 
-            <article class="who">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse numquam nam eum eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis provident ducimus, veritatis commodi cumque sapiente obcaecati ipsam?</article>
+    <section id="quienesSomos" class="quienesSomos">
+        <div class="container">
+            <video autoplay loop muted class="ratio d-none d-lg-block" style="--aspect-ratio: 31,25%;">
+                    <source src="media/VIDEO-INTRO-Mh.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted class="ratio d-lg-none" style="--aspect-ratio: 31,25%;">
+                <source src="media/VIDEO-INTRO-Lsq.mp4" type="video/mp4">
+            </video>                            
+            <h2 class="titleLight pt-5">¿Quiénes somos?</h2> 
+            <div class="who">La Doctora Jennifer es Médica Pediatra del Staff del Hospital Alemán. En su práctica ha entablado lazos con otros profesionales de la salud, en quienes confía para realizar interconsultas y/o derivar pacientes. Asimismo, su vocación la llevó a querer brindar talleres y workshops que le sirvan a las familias para mejorar la salud de sus hijos.</div>
             <img src="media/doc.png" alt="profile-pic">
         </div>
     </section>
 
         
     <section id="talleres" class="talleres">
-        <div class="talleres-grid container">
-            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4 p-5">
-                
+        <div class="talleres-grid container d-sm-none d-md-block"> <!-- hidden en >MD -->
+            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4 p-5">                
                 <div class="col talleres-card">
-                <div class="card h-100 bg-light">
-                    <img src="media/TALLER-B.jpg" class="card-img-top" alt="imgTaller">
-                    <div class="card-body bg-light">
-                    <h5 class="card-title">Taller/Workshop</h5>
-                    <p class="card-text">Este es un taller de pediatría/prácticas para la Familia dictado por un/a Profesional de la Salud.</p>
+                    <div class="card h-100 bg-light">
+                        <img src="media/TALLER-B.jpg" class="card-img-top" alt="imgTaller">
+                        <div class="card-body bg-light">
+                        <h5 class="card-title">Taller/Workshop</h5>
+                        <p class="card-text">Este es un taller de pediatría/prácticas para la Familia dictado por un/a Profesional de la Salud.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-center">
+                            <a class="btn btn-danger" href="#" role="button"><h6>¡Me interesa!</h6></a>                                     
+                        </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-center">
-                        <a class="btn btn-danger" href="#" role="button"><h6>¡Me interesa!</h6></a>                                     
-                    </div>
-                </div>
                 </div>
 
                 <div class="col talleres-card">
@@ -187,7 +186,38 @@
                 
             </div>       
         </div>
+
+        <div class="talleres-grid container d-sm-block d-md-none"></div>
+            <div id="carouselExampleControls" class="carousel slide d-sm-block d-md-none" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="media/TALLER-B.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="media/TALLER-C.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="media/TALLER-D.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>  
+
+
+
     </section>
+
+
+
+    
 
 
 <!-- 
@@ -289,26 +319,26 @@ HASTA ACÁ COMMENT2      </div>
 <section id="turnos" class="Turnos">
     <div class="turnosMain p-5">
         <div class="d-flex justify-content-center">
-            <h2>Consultas</h2>
+            <h2 class="titleLight">Consultas</h2>
         </div>
             
         <div class="container pb-5" >
             <div class="row">
                 <div class="col-md-6 pb-3">
                     <div class="card text-center KontaktA h-100">
-                      <div class="card-body">
-                        <h5 class="card-title pb-2">E-Mail</h5>
-                        <img src="media/MAIL.jpg" class="card-img-top" alt="imgWSP">
-                        <p class="card-text KontaktText">Envianos un mail y te responderemos a la brevedad.</p>
-                        <div class="KontaktB fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">hola@drajenny.com.ar</div>
-                      </div>
+                        <div class="card-body">
+                            <h5 class="card-title pb-2">E-Mail</h5>
+                            <img src="media/MAIL.jpg" class="card-img-top" alt="imgWSP">
+                            <p class="card-text KontaktText">Envianos un mail y te responderemos a la brevedad.</p>
+                            <div class="KontaktB fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">hola@drajenny.com.ar</div>
+                        </div>
                     </div>
                   </div>
                 <div class="col-md-6 pb-3">
                   <div class="card text-center KontaktA h-100">
                     <div class="card-body">
                       <h5 class="card-title pb-2">Whatsapp</h5>
-                      <img src="media/WSP.jpg" class="card-img-top" alt="imgWSP">
+                      <img src="media/WSP1.jpg" class="card-img-top" alt="imgWSP">
                       <p class="card-text KontaktText">O podés tambien comunicarte con nosotros por Whatsapp.</p>
                       <div class="KontaktB fw-bold fs-5 px-2" style="font-family: 'Krub', sans-serif">+54 9 11-234-5678</div>
                     </div>
@@ -322,7 +352,7 @@ HASTA ACÁ COMMENT2      </div>
     <section id="FAQs" class="FAQs">
         <div class="FAQsMain container">
             <div class="d-flex justify-content-center">
-                <h2>Preguntas Frecuentes</h2>
+                <h2 class=FAQsTitle>Preguntas Frecuentes</h2>
             </div>
             <div class="accordion accordion-flush container" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -333,7 +363,12 @@ HASTA ACÁ COMMENT2      </div>
                             </button>
                         </h4>                    
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            <div class="accordion-body">
+                                <ul>
+                                    <li class="pb-2">Brindamos Talleres y Workshops para acompañarte y que te saques todas tus dudas, sin importar en qué etapa de crecimiento se encuentre tu hijo/a.</li>
+                                    <li>Tenemos un servicio de Consultas. Podés coordinar con nosotros una cita virtual o presencial por medio de nuestros canales de comunicación (E-Mail o Whatsapp).</li>
+                                </ul>
+                            </div>                            
                         </div>
                     </div>        
                 </div>
@@ -341,11 +376,15 @@ HASTA ACÁ COMMENT2      </div>
                     <div class="FAQsQuestion">
                         <h4 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            ¿Qué consideraciones debo tener?
+                            ¿Cómo son las consultas?
                             </button>
                         </h4>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            <div class="accordion-body">
+                                Tenés dos opciones: Podés agendar una consulta virtual o podés coordinar una visita a consultorio.
+                                En cualquiera de los dos casos, la primer comunicación la tendrás que realizar por E-Mail o Whatsapp expresando tu preferencia.
+                                   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -357,7 +396,7 @@ HASTA ACÁ COMMENT2      </div>
                             </button>
                         </h4>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            <div class="accordion-body">Sí, guardamos los datos de todas nuestras consultas a fin de tener un rápido acceso al historial de cada paciente.</div>
                         </div>
                     </div>    
                 </div>
@@ -369,7 +408,9 @@ HASTA ACÁ COMMENT2      </div>
                             </button>
                         </h4>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            <div class="accordion-body">
+                                <article>Sólo en caso de que nuestro Staff lo considere pertinente y de acuerdo a evaluación médica, es decir, a partir de una Consulta.</article>
+                            </div>
                         </div>
                     </div>    
                 </div>
@@ -377,11 +418,11 @@ HASTA ACÁ COMMENT2      </div>
                     <div class="FAQsQuestion">
                         <h4 class="accordion-header" id="flush-headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                           ¿Entregan muestras gratis?
+                            ¿Qué consideraciones debo tener?
                             </button>
                         </h4>
                         <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            <div class="accordion-body">Nuestros profesionales de la salud te brindarán siempre la mejor atención, lo que no quita que ante cualquier duda, consultes a tu médico de confianza. Sabemos y entendemos que la prioridad la tiene el o la paciente.</div>
                         </div>
                     </div>    
                 </div>
@@ -390,20 +431,105 @@ HASTA ACÁ COMMENT2      </div>
     </section>
 
 
-    <footer id="footer" class="footer">                 
+    <footer id="footer" class="footer1 container">
+                         
         <div class="container">
             <div class="row d-flex align-items-center">
-              <div class="col">
-                Diseño por EMS
-              </div>
-              <div class="col-6">
-                DraJenny © 2020 
-              </div>
-              <div class="col">
-                <a class="legalesLink" href="legales.html">Legales</a>
+                <div class="col-3">
+                    Diseño por EMS
+                </div>
+                <div class="col-6">
+                    DraJenny © 2020 
+                    </div>
+                <div class="col-3">
+                    <a class="legalesLink" data-bs-toggle="modal" data-bs-target="#exampleModal" href="legales.html"> Legales</a>
+            </div>
+        </div>    
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel" style="color: crimson">Declaración de Protección de Datos Personales</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="LegalesTxt">Ley de Protección de los Datos Personales</h6>
+                        <article class="LegalesTxt pb-3">La Ley de Protección de los Datos Personales (Ley N° 25.326) es una norma de orden público 
+                            que regula la actividad de las bases de datos que registran información de carácter personal.
+                            Su objeto es garantizar a las personas el control del uso de sus datos personales.
+                            El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos
+                            en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés
+                            legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley Nº 25.326.
+                            La DIRECCION NACIONAL DE PROTECCION DE DATOS PERSONALES, Órgano de Control de la
+                            Ley Nº 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con
+                            relación al incumplimiento de las normas sobre protección de datos personales.
+                            DraJenny S.R.L. asume el carácter de Responsable Registrado ya que ha
+                            cumplimentado con todos los requisitos de licitud que exige esta ley, que es regulada por la
+                            Dirección Nacional de Protección de Datos Personales. 
+                        </article>
+                    <h6 class="LegalesTxt">Política de Protección de Datos</h6>
+                        <article class="LegalesTxt pb-3">Con el presente aviso, DraJenny S.R.L. (en adelante, "DraJenny") informa a los
+                            usuarios del portal de Internet de su propiedad (en adelante, los "Usuarios" y el "Portal")
+                            acerca de su política de protección de datos personales (en adelante, "los Datos Personales")
+                            para que los Usuarios determinen libre y voluntariamente si desean facilitar a DraJenny los Datos
+                            Personales que se les puedan requerir o que pueda obtener de los Usuarios con ocasión de la
+                            inscripción o alta para participar en las actividades ofrecidas en el Portal o a través del Portal.
+                            El tipo de información incluye, pero no es limitativo, nombre, apellido, dirección, número de
+                            teléfono, documento nacional de identidad, correo electrónico, sexo, edad. DraJenny se reserva el
+                            derecho a modificar la presente política para adaptarla a novedades legislativas o
+                            jurisprudenciales así como a prácticas de la industria. Los Datos Personales recogidos por DraJenny
+                            serán objeto de tratamiento automatizado e incorporados a los correspondientes archivos de
+                            DraJenny.
+                            DraJenny ha adoptado los niveles de seguridad de protección de los Datos Personales legalmente
+                            requeridos, y ha instalado todos los medios y medidas técnicas a su alcance para evitar la
+                            pérdida, mal uso, alteración, acceso no autorizado y robo de los Datos Personales facilitados a
+                            DraJenny. Ello no obstante, el Usuario debe ser consciente de que las medidas de seguridad en
+                            Internet no son inexpugnables.
+                            Confidencialidad de la Información. DraJenny no compartirá la información confidencial con
+                            terceros, excepto que tenga expresa autorización de quienes se suscribieron, o cuando ha sido
+                            requerido por orden judicial o legal, o para proteger los derechos de propiedad u otros
+                            derechos de DraJenny.
+                            DraJenny no vende ni alquila ni comercializa la información de los usuarios. Si los datos personales
+                            del usuario debieran ser compartidos con socios comerciales o patrocinantes, el usuario será
+                            notificado antes que éstos sean recogidos o transferidos. 
+                            Modificación/actualización de la información personal. Los datos personales proporcionados
+                            por el usuario formarán parte de un archivo que contendrá su perfil.
+                            Aceptación de los términos. Esta declaración de Confidencialidad y Protección de Datos está
+                            sujeta a los términos y condiciones de DraJenny, con lo cual constituye un acuerdo legal entre el
+                            usuario y DraJenny. Si el usuario utiliza los servicios de DraJenny, significa que ha leído, entendido y
+                            acordado los términos antes expuestos. Si no está de acuerdo con ellos, él tiene la opción de
+                            no proporcionar ninguna información personal, o no utilizar el servicio de DraJenny.
+                            DraJenny se compromete a hacer sus mejores esfuerzos para proteger la privacidad de la
+                            información, y utilizar medidas de seguridad respecto de la misma, sin perjuicio de lo cual la
+                            misma será revelada en virtud de órdenes judiciales, o de regulaciones legales. DraJenny no se
+                            responsabiliza por la protección de la información en los casos que terceras partes la hayan
+                            interceptado o hayan accedido a la misma, sin intervención de DraJenny, por ende DraJenny tampoco se
+                            hace responsable por la indebida utilización de la información obtenida por esos medios.
+                            Todos los datos personales de los clientes serán almacenados en DraJenny. Al registrar sus datos en
+                            este sitio Ud. confirma y acepta estar informado de la localización de sus datos y autoriza su
+                            archivo. Ud. Podrá ejercitar los derechos de acceder, cancelar y actualizar su Información
+                            Personal, así como a oponerse al tratamiento de la misma, de conformidad a la normativa
+                            aplicable mediante el envío de un e‐mail a la casilla de correo info@drajenny.com.ar
+                        </article>
+                    <h6 class="LegalesTxt">Política de Protección de Datos</h6>
+                        <article class="LegalesTxt pb-3">        
+                            Ley Defensa al Consumidor: Según lo indicado en la ley Nº 24.240 (Normas de Protección y
+                            Defensa de los Consumidores), DraJenny pone a su disposición los textos que componen el
+                            tratamiento de transacciones electrónicas. Puede acceder a ellos haciendo <a class="linkDark" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm">click aquí</a>. 
+                        </article>
+
+                        
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
               </div>
             </div>
+          </div>
+        
     </footer>
+
 
 
 
