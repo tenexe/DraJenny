@@ -21,7 +21,7 @@
 
 
 .FAQsQuestion {
-    padding: 0 15%;
+    padding: 0 5%;
 }
 
 .accordion-button {
@@ -30,6 +30,19 @@
 
 .accordion-body {
     @include texto;
+
+}
+
+@media only screen and (max-width: 767px) {    
+    .accordion-collapse , .accordion-body {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {    
+    .accordion-collapse , .accordion-body {
+        padding: 0 10%;
+    }
 }
 
 @media only screen and (max-width: 768px) {  
