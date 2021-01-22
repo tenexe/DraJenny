@@ -607,8 +607,8 @@ input, .form-select, .form-control {
 }
 
 .KontaktA:hover {
-  transition: background-color 1s;
-  background-color: pink;
+  transition: height 1s;
+  height: 110%;
 }
 
 .KontaktText {
