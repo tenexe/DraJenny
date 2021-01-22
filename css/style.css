@@ -12,6 +12,10 @@ h2 {
   color: white;
 }
 
+.titleStrong {
+  color: #ad102f;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -59,6 +63,10 @@ h2 {
   color: white;
 }
 
+.titleStrong {
+  color: #ad102f;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -104,6 +112,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -163,6 +175,10 @@ h2 {
   color: white;
 }
 
+.titleStrong {
+  color: #ad102f;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -208,6 +224,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -275,7 +295,7 @@ h6 {
 @media only screen and (max-width: 767px) {
   .quienesSomos .container .who {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     font-family: "Krub", sans-serif;
     font-style: italic;
@@ -305,6 +325,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -352,6 +376,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -413,6 +441,38 @@ h6 {
   border-radius: 10px;
 }
 
+.titlebg {
+  background-color: #dc143c;
+  padding: 4% 0 1% 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 25%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ea1f47' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ea1f47' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carouselFooter {
+  padding: 5% 0;
+  background-color: #dc143c;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 h1 {
   font-family: "Krub", sans-serif;
 }
@@ -425,6 +485,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -472,6 +536,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -563,6 +631,10 @@ h2 {
   color: white;
 }
 
+.titleStrong {
+  color: #ad102f;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -608,6 +680,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
@@ -708,6 +784,10 @@ h2 {
   color: white;
 }
 
+.titleStrong {
+  color: #ad102f;
+}
+
 h3 {
   font-family: "Krub", sans-serif;
 }
@@ -788,6 +868,10 @@ h2 {
 
 .titleLight {
   color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
 }
 
 h3 {
