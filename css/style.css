@@ -161,6 +161,16 @@ h6 {
   background-image: linear-gradient(to bottom, #ea1f47, #ad102f);
 }
 
+@media only screen and (max-width: 767px) {
+  .Inicio {
+    padding-top: 2%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Inicio {
+    padding-top: auto;
+  }
+}
 h1 {
   font-family: "Krub", sans-serif;
 }
