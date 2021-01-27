@@ -1,3 +1,5 @@
+@import 'extensions/mixins';
+@import 'extensions/extend';
 @import 'base/color'; 
 @import 'base/fonts';
 @import 'components/header';
@@ -6,7 +8,6 @@
 @import 'components/turnos';
 @import 'components/FAQs';
 @import 'components/footer';
-@import 'extensions/mixins';
-@import 'extensions/extend';
+
 
 

@@ -29,6 +29,19 @@ input, .form-select, .form-control {
     }
 }
 
+@media only screen and (min-width: 767px) {    
+    .KontaktB {
+        font-size: larger;
+    }
+}
+
+@media only screen and (max-width: 768px) {    
+    .KontaktB {
+        font-size: medium;
+    }
+}
+
+
 .turnoPack:hover {
     background-color: $color-light;
 }

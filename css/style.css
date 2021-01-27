@@ -49,6 +49,69 @@ h6 {
   color: black;
 }
 
+.card {
+  border-radius: 20px;
+}
+
+.card-img-top {
+  border-radius: 20px;
+}
+
+.card-img-top-C {
+  border-radius: 0px;
+}
+
+h1 {
+  font-family: "Krub", sans-serif;
+}
+
+h2 {
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.titleLight {
+  color: white;
+}
+
+.titleStrong {
+  color: #ad102f;
+}
+
+h3 {
+  font-family: "Krub", sans-serif;
+}
+
+h4 {
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+}
+
+.accordion-button {
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  color: #ad102f;
+}
+
+h5 {
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+}
+
+.form-check-label, .form-label {
+  color: white;
+}
+
+.LegalesTxt {
+  color: black;
+}
+
 h1 {
   font-family: "Krub", sans-serif;
 }
@@ -447,10 +510,6 @@ h6 {
   border-radius: 40px;
 }
 
-.talleres-card {
-  border-radius: 10px;
-}
-
 .titlebg {
   background-color: #dc143c;
   padding: 4% 0 1% 0;
@@ -481,6 +540,10 @@ h6 {
   background-color: #dc143c;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.talleres-card {
+  border-radius: 0px;
 }
 
 h1 {
@@ -612,6 +675,16 @@ input, .form-select, .form-control {
   background-color: #ad102f;
 }
 
+@media only screen and (min-width: 767px) {
+  .KontaktB {
+    font-size: larger;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .KontaktB {
+    font-size: medium;
+  }
+}
 .turnoPack:hover {
   background-color: #ea1f47;
 }
@@ -766,9 +839,9 @@ h6 {
     padding: 0 10%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .FAQsTitle {
-    padding-top: 20px;
+    padding-top: 10%;
   }
 }
 .accordion-collapse {
@@ -861,55 +934,15 @@ h6 {
   color: pink;
 }
 
-h1 {
-  font-family: "Krub", sans-serif;
+@media only screen and (min-width: 768px) {
+  .footer1, .footerP {
+    padding-top: 1%;
+  }
 }
-
-h2 {
-  font-family: "Krub", sans-serif;
-  font-weight: bold;
-  padding-bottom: 2%;
-}
-
-.titleLight {
-  color: white;
-}
-
-.titleStrong {
-  color: #ad102f;
-}
-
-h3 {
-  font-family: "Krub", sans-serif;
-}
-
-h4 {
-  font-family: "Krub", sans-serif;
-  font-weight: bold;
-}
-
-.accordion-button {
-  font-family: "Krub", sans-serif;
-  font-weight: bold;
-  color: #ad102f;
-}
-
-h5 {
-  font-family: "Krub", sans-serif;
-  font-weight: bold;
-}
-
-h6 {
-  font-family: "Krub", sans-serif;
-  font-weight: bold;
-}
-
-.form-check-label, .form-label {
-  color: white;
-}
-
-.LegalesTxt {
-  color: black;
+@media only screen and (max-width: 767px) {
+  .footer1, .footerP {
+    padding-top: 3%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
