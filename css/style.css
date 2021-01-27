@@ -546,6 +546,13 @@ h6 {
   border-radius: 0px;
 }
 
+.invitar {
+  font-style: italic;
+  font-weight: normal;
+  color: #ea1f47;
+  text-align: end;
+}
+
 h1 {
   font-family: "Krub", sans-serif;
 }
