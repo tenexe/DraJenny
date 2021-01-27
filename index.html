@@ -10,7 +10,7 @@
       rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;600&display=swap" rel="stylesheet"> <!-- FONT -->
-    
+    <link rel="shortcut icon" href="./favicon.ico"> <!-- ICO -->
     <link rel="stylesheet" href="css/style.css">
     
         <!-- SEO-->
@@ -24,7 +24,7 @@
         <meta property="og:title" content="Dra Jenny - Pediatría">
         <meta property="og:description" content="Web sobre Pediatría, Talleres sobre Niñez y Servicios Médicos.">
         <meta property="og:url" content="https://www.draJenny.com.ar">
-        <meta property="og:image" content="https://www.draJenny.com.ar">
+        <meta property="og:image" content="../media/Holly-Springs_Choosing-a-Pediatrician.jpeg">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:heigth" content="600">
 
@@ -100,7 +100,8 @@
             </video>
             <video autoplay loop muted class="ratio d-lg-none" style="--aspect-ratio: 31,25%;">
                 <source src="media/VIDEO-INTRO-Lsq.mp4" type="video/mp4">
-            </video>                            
+            </video>
+            <h1 class="visually-hidden">Doctora Jenny</h1>                            
             <h2 class="titleLight pt-4">¿Quiénes somos?</h2> 
             <div class="who">La Doctora Jennifer es Médica Pediatra del Staff del Hospital Alemán. En su práctica ha entablado lazos con otros profesionales de la salud, en quienes confía para realizar interconsultas y/o derivar pacientes. Asimismo, su vocación la llevó a querer brindar talleres y workshops que le sirvan a las familias para mejorar la salud de sus hijos.</div>
             <img class="mb-3" src="media/doc.png" alt="profile-pic">
@@ -110,7 +111,10 @@
         
     <section id="talleres" class="talleres">
         <div class="talleres-grid container d-none d-sm-none d-md-block"> <!-- hidden en >MD -->
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 g-4 p-5">                
+            <div class="container text-center">
+                <h2 class="titleLight mt-2">Talleres & Workshops</h2>
+            </div>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 g-4 px-3 pb-3">                
                 
                 <div class="col talleres-card">
                     <div class="card h-100 bg-light">
@@ -142,7 +146,7 @@
                     <div class="card h-100 bg-light">
                     <img src="media/TALLER-D.jpg" class="card-img-top" alt="imgTaller">
                     <div class="card-body bg-light">
-                        <h5 class="card-title">Taller: "Lactancia"</h5>
+                        <h5 class="card-title">Taller: "Lactancia: Mitos y Verdades"</h5>
                         <p class="card-text">La lactancia es emocional y físicamente fundamental para tu bebé. Aprendé técnicas para mejorar la práctica.</p>
                     </div>
                     <div class="card-footer d-flex justify-content-center">
@@ -195,34 +199,34 @@
 
     <div class="d-sm-block d-md-none py-5"></div>
         <div class="d-sm-block d-md-none container titlebg">
-            <h2 class="titleLight">Talleres & Workshops</h2>
+            <h2 class="titleLight mt-1">Talleres & Workshops</h2>
         </div>
             <div id="carouselExampleControls" class="carousel slide d-sm-block d-md-none pb-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="col" alt="First slide">
-                            <div class="card h-100 bg-light talleres-card">
-                            <img src="media/TALLER-B.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
-                            <div class="card-body bg-light">
-                                <h5 class="card-title">Taller grupal: "Hombres e hij@s"</h5>
-                                <p class="card-text">Entendé cómo es la relación padre-hijo desde el punto de vista de un hombre.</p>
-                            </div>
-                            <div class="card-footer d-flex justify-content-center">
-                                <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerBtxt"><h6>Más Info</h6></a>                                      
+                            <div class="card bg-light talleres-card">
+                                <img src="media/TALLER-B.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
+                                <div class="card-body bg-light" style="height: 8rem;">
+                                    <h5 class="card-title">Taller grupal: "Hombres e hij@s"</h5>
+                                    <p class="card-text">Cómo es la relación padre-hijo desde el punto de vista del hombre.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center">
+                                    <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerBtxt"><h6>Más Info</h6></a>                                      
                             </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col" alt="Second slide">
-                            <div class="card h-100 bg-light talleres-card">
-                            <img src="media/TALLER-C.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
-                            <div class="card-body bg-light">
-                                <h5 class="card-title">Taller: "Prematuros: Atenciones y Cuidados"</h5>
-                                <p class="card-text">Consejos, precauciones y buenas prácticas.</p>
-                            </div>
-                            <div class="card-footer d-flex justify-content-center">
-                                <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerCtxt"><h6>Más Info</h6></a>                                      
+                            <div class="card bg-light talleres-card">
+                                <img src="media/TALLER-C.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
+                                <div class="card-body bg-light" style="height: 8rem;">
+                                    <h5 class="card-title">Taller: "Prematuros: Atenciones y Cuidados"</h5>
+                                    <p class="card-text">Consejos, ideas, precauciones y buenas prácticas.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center">
+                                    <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerCtxt"><h6>Más Info</h6></a>                                      
                             </div>
                             </div>
                         </div>
@@ -231,8 +235,8 @@
                         <div class="col" alt="Third slide">
                             <div class="card h-100 bg-light  talleres-card">
                             <img src="media/TALLER-D.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
-                            <div class="card-body bg-light">
-                                <h5 class="card-title">Taller: "Lactancia"</h5>
+                            <div class="card-body bg-light" style="height: 8rem;">
+                                <h5 class="card-title">Taller: "Lactancia: Mitos y Verdades"</h5>
                                 <p class="card-text">Técnicas para amamantar y alternativas para casos específicos.</p>
                             </div>
                             <div class="card-footer d-flex justify-content-center">
@@ -245,9 +249,9 @@
                         <div class="col" alt="Fourth slide">
                             <div class="card h-100 bg-light  talleres-card">
                             <img src="media/TALLER-E.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
-                            <div class="card-body bg-light">
+                            <div class="card-body bg-light" style="height: 8rem;">
                                 <h5 class="card-title">Taller: "Los abuelos y nuestros hijos"</h5>
-                                <p class="card-text">Integrá a tus hijos con tus padres.</p>
+                                <p class="card-text">Integrá de la mejor manera a tus hijos con tus padres.</p>
                             </div>
                             <div class="card-footer d-flex justify-content-center">
                                 <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerEtxt"><h6>Más Info</h6></a>                                     
@@ -259,9 +263,9 @@
                         <div class="col" alt="Fifth slide">
                             <div class="card h-100 bg-light talleres-card">
                             <img src="media/TALLER-G.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
-                            <div class="card-body bg-light">
+                            <div class="card-body bg-light" style="height: 8rem;">
                                 <h5 class="card-title">Charla: "Los niños y la tecnología"</h5>
-                                <p class="card-text">Internet, precauciones, integración y más.</p>
+                                <p class="card-text">Internet, precauciones y adaptación a lo nuevo.</p>
                             </div>
                             <div class="card-footer d-flex justify-content-center">
                                 <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerGtxt"><h6>Más Info</h6></a>                                     
@@ -273,9 +277,9 @@
                         <div class="col" alt="Sixth slide">
                             <div class="card h-100 bg-light talleres-card">
                             <img src="media/TALLER-H.jpg" class="card-img-top card-img-top-C" alt="imgTaller">
-                            <div class="card-body bg-light">
+                            <div class="card-body bg-light" style="height: 8rem;">
                                 <h5 class="card-title">Taller: "Conexión con tu bebé"</h5>
-                                <p class="card-text">Actividades, prácticas y juegos que podés realizar para estimular a tu bebé. </p>
+                                <p class="card-text">Actividades y juegos que podés realizar para estimular a tu bebé. </p>
                             </div>
                             <div class="card-footer d-flex justify-content-center">
                                 <a class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#tallerHtxt"><h6>Más Info</h6></a>                                     
